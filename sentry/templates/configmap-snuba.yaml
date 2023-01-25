@@ -18,6 +18,17 @@ data:
 
     DEBUG = env("DEBUG", "0").lower() in ("1", "true")
 
+    TOPIC_PARTITION_COUNTS = {
+        "snuba-transactions-commit-log": 12,
+        "ingest-transactions": 12,
+        "transactions": 12,
+        "ingest-events": 12,
+        "events": 12,
+        "outcomes": 12,
+        "event-replacements": 12,
+        "ingest-session": 12,
+    }
+
     # Clickhouse Options
     CLUSTERS = [
       {
