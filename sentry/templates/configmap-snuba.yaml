@@ -23,7 +23,7 @@ data:
         "ingest-transactions": 12,
         "transactions": 12,
         "ingest-events": 12,
-        "events": 12,
+        "events": 36,
         "outcomes": 12,
         "event-replacements": 12,
         "ingest-session": 12,
